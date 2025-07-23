@@ -22,7 +22,7 @@ input_name = session.get_inputs()[0].name
 output_name = session.get_outputs()[0].name
 
 # Labels (manually write your 6 classes)
-labels = ["cobra", "viper", "python", "russell_viper", "green_pit_viper", "rat_snake"]
+labels = ["Common Indian krait", "Green Vine Snake", "Python", "Russell's_viper", "Indian Cobra", "Hump Nosed Viper"]
 
 def preprocess(image):
     image = image.resize((640, 640))  # Resize to model input size
