@@ -73,4 +73,5 @@ def nms(boxes, scores, iou_threshold):
         inds = np.where(iou <= iou_threshold)[0]
         order = order[inds + 1]
 
-    return keep
+    #return keep
+    return np.array(keep)
